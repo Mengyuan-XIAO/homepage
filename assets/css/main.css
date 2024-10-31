@@ -635,6 +635,13 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+	.icon-image {
+    width: 10em;  /* 使用图标的大小，通常1em左右 */
+    height: auto;  /* 保持图片的纵横比 */
+    vertical-align: middle; /* 让图片与文本基线对齐 */
+    transform: translate(-2.6em, -2.8em); /* 向左上方移动0.2em */
+	}
+
 /* Image */
 
 	.image {
@@ -1140,9 +1147,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1272,10 +1282,10 @@ input, select, textarea {
 				content: '';
 				display: block;
 				position: absolute;
-				top: calc(-3.5rem - 1px);
+				top: calc(-2.5rem - 1px);
 				left: calc(50% - 1px);
 				width: 1px;
-				height: calc(3.5rem + 1px);
+				height: calc(2.0rem + 1px);
 				background: #ffffff;
 			}
 
